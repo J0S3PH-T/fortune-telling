@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://zpnerdblog.files.wordpress.com/2011/01/giygas.jpg);
+}
+
+h1{
+    font-family: 'Trade Winds' ;
+}
+
+.container, .results {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 5px ridge red;
+    border-radius: 10px;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+    
+    font-family: 'Trade Winds' ;
+        background-color: black;
+        color:red;
+}
+
+.results {
+    display: none;
+    color:red;
+}
+
+.container:hover {
+    background-color: black;
+        color:red;
+}
+
+.amountEaten,
+.yourName,
+.foodName,
+.foodName2{
+    padding: 10px;
+}
+
+.submit {
+background-color: black;
+        color:red;
+    padding: 20px;
+    font-size: 18px;
+    
+    border: ridge red;
+    margin-top: 20px;
+ font-family: 'Trade Winds' ;
+}
